@@ -63,7 +63,7 @@ fun add(list: List<String>){
         }
     }
     else{
-        val string = list[2]
+        val string = list[1]
         a.put(string.split(":")[0],string.split(":")[1])
     }
     print("<<  ")
